@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>7‑Week Basketball Trainer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>7‑Week Basketball Training</h1>
+  <nav id="tabs">
+    <button class="tab-btn active" data-target="warmup">Warm‑Up</button>
+    <button class="tab-btn" data-target="w1d1">W1‑D1</button>
+    <button class="tab-btn" data-target="cooldown">Cool‑Down</button>
+    <!-- duplicate buttons for every training day -->
+  </nav>
+</header>
+
+<main>
+  <!-- Warm‑Up tab -->
+  <section id="warmup" class="tab-panel active">
+    <h2>Pre‑Training Warm‑Up</h2>
+    <ul class="exercise-list">
+      <li>
+        <h3>Light Cardio</h3>
+        <iframe src="https://www.youtube.com/embed/c4DAnQ6DtF8" loading="lazy" allowfullscreen></iframe>
+      </li>
+      <!-- add the rest of the warm‑up clips here -->
+    </ul>
+  </section>
+
+  <!-- Week 1 Day 1 tab -->
+  <section id="w1d1" class="tab-panel">
+    <h2>Week 1 • Day 1 – Speed & Strength A</h2>
+    <ul class="exercise-list">
+      <li>
+        <h3>A‑Skips</h3>
+        <iframe src="https://www.youtube.com/embed/5-howCIg51Q" loading="lazy" allowfullscreen></iframe>
+      </li>
+      <!-- paste every W1‑D1 exercise here -->
+    </ul>
+  </section>
+
+  <!-- Cool‑Down tab -->
+  <section id="cooldown" class="tab-panel">
+    <h2>Post‑Training Cool‑Down</h2>
+    <ul class="exercise-list">
+      <li>
+        <h3>Hamstring Stretch</h3>
+        <iframe src="https://www.youtube.com/embed/rwKK3GzABMM" loading="lazy" allowfullscreen></iframe>
+      </li>
+      <!-- rest of the cool‑down clips -->
+    </ul>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
